@@ -33,7 +33,7 @@ const About = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="flex w-full flex-col lg:flex-row items-center gap-20 my-20"
+        className="flex w-full flex-col lg:flex-row items-center gap-20 my-20 mt-5"
       >
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -54,10 +54,10 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am a skilled Full-Stack Web Developer specializing in the MERN
-            stack. My expertise includes seamless API integration, modular
-            backend architecture, and crafting intuitive user interfaces that
-            enhance user experience.
+            I am a proficient Full-Stack Web Developer specializing in the MERN
+            stack, with expertise in modular backend architecture, seamless API
+            integration, and building intuitive user interfaces that elevate
+            user experience.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
@@ -97,7 +97,8 @@ const About = ({ isDarkMode }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5, delay: 0.6 }}
-            className="flex items-center gap-3 sm:gap-5"
+            className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-x-1 gap-y-3 place-items-center w-full max-w-5xl mx-auto px-2
+"
           >
             {toolsData.map((tool, index) => (
               <motion.li

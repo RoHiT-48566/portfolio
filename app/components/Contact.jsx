@@ -43,7 +43,7 @@ const Contact = () => {
         transition={{ duration: 0.3, delay: 0.5 }}
         className="text-center mb-2 text-lg font-Ovo"
       >
-        Contact Me
+        Contact
       </motion.h4>
       <motion.h2
         initial={{ opacity: 0, y: -20 }}

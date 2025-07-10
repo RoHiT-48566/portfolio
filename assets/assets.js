@@ -48,6 +48,7 @@ import intelliJ from "./intelliJ.png";
 import jupyter from "./jupyter.png";
 import postman from "./postman.png";
 import powerbi from "./powerbi.png";
+import mysql from "./mysql.png";
 
 export const assets = {
   html,
@@ -63,6 +64,7 @@ export const assets = {
   jupyter,
   postman,
   powerbi,
+  mysql,
   user_image,
   code_icon,
   code_icon_dark,
@@ -185,16 +187,12 @@ export const toolsData = [
   assets.expressjs,
   assets.reactjs,
   assets.mongodb,
-  //   assets.chromadb,
   assets.fastapi,
   assets.postman,
   assets.git,
   assets.github,
-  //   assets.vscode,
-  //   assets.github,
-  //   assets.vscode,
-  //   assets.intelliJ,
-  //   assets.jupyter,
-  //   assets.postman,
-  //   assets.powerbi,
+  assets.chromadb,
+  assets.mysql,
+  assets.intelliJ,
+  assets.powerbi,
 ];
